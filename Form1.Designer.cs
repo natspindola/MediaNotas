@@ -49,9 +49,9 @@ namespace MediaNotas
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(83, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nota1";
+            this.label1.Text = "Nota 1";
             // 
             // txtNota1
             // 
@@ -72,9 +72,9 @@ namespace MediaNotas
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(83, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Nota2";
+            this.label2.Text = "Nota 2";
             // 
             // txtNota3
             // 
@@ -88,9 +88,9 @@ namespace MediaNotas
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(83, 140);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 13);
+            this.label3.Size = new System.Drawing.Size(39, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Nota3";
+            this.label3.Text = "Nota 3";
             // 
             // txtNota4
             // 
@@ -104,9 +104,9 @@ namespace MediaNotas
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(83, 178);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 13);
+            this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Nota4";
+            this.label4.Text = "Nota 4";
             // 
             // txtMedia
             // 
@@ -137,7 +137,7 @@ namespace MediaNotas
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(67, 326);
+            this.label6.Location = new System.Drawing.Point(67, 324);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 13);
             this.label6.TabIndex = 11;
@@ -146,7 +146,7 @@ namespace MediaNotas
             // lblSituacao
             // 
             this.lblSituacao.AutoSize = true;
-            this.lblSituacao.Location = new System.Drawing.Point(132, 326);
+            this.lblSituacao.Location = new System.Drawing.Point(132, 324);
             this.lblSituacao.Name = "lblSituacao";
             this.lblSituacao.Size = new System.Drawing.Size(0, 13);
             this.lblSituacao.TabIndex = 12;

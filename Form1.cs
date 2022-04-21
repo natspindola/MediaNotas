@@ -28,6 +28,17 @@ namespace MediaNotas
             media = (nota1 + nota2 + nota3 + nota4) / 4;
 
             txtMedia.Text = Convert.ToString(media);
+
+            if(media >= 7)
+            {
+                lblSituacao.Text = "APROVADO";
+                lblSituacao.ForeColor = Color.Green;
+            }
+            else
+            {
+                lblSituacao.Text = "REPROVADO";
+                lblSituacao.ForeColor = Color.Red;
+            }
         }
     }
 }
