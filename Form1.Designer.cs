@@ -42,6 +42,9 @@ namespace MediaNotas
             this.btnOK = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.lblSituacao = new System.Windows.Forms.Label();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -126,6 +129,7 @@ namespace MediaNotas
             // 
             // btnOK
             // 
+            this.btnOK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnOK.Location = new System.Drawing.Point(135, 218);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(100, 23);
@@ -137,7 +141,7 @@ namespace MediaNotas
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(67, 324);
+            this.label6.Location = new System.Drawing.Point(70, 306);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 13);
             this.label6.TabIndex = 11;
@@ -146,16 +150,50 @@ namespace MediaNotas
             // lblSituacao
             // 
             this.lblSituacao.AutoSize = true;
-            this.lblSituacao.Location = new System.Drawing.Point(132, 324);
+            this.lblSituacao.Location = new System.Drawing.Point(135, 306);
             this.lblSituacao.Name = "lblSituacao";
             this.lblSituacao.Size = new System.Drawing.Size(0, 13);
             this.lblSituacao.TabIndex = 12;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpar.Location = new System.Drawing.Point(73, 342);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(97, 23);
+            this.btnLimpar.TabIndex = 13;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(58, 9);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(227, 33);
+            this.lblNome.TabIndex = 14;
+            this.lblNome.Text = "Média de notas";
+            // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(188, 342);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(97, 23);
+            this.btnSair.TabIndex = 15;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(332, 377);
+            this.Controls.Add(this.btnSair);
+            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.lblSituacao);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnOK);
@@ -191,6 +229,9 @@ namespace MediaNotas
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblSituacao;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.Button btnSair;
     }
 }
 
