@@ -21,6 +21,7 @@ namespace MediaNotas
 
         private void btnOK_Click(object sender, EventArgs e)
         {
+            lblSituacao.ForeColor = Color.Black;
             if (string.IsNullOrEmpty(txtNota1.Text))
             {
                 lblSituacao.Text = "Nota 1 é obrigatória";
